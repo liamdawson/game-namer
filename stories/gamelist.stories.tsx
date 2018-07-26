@@ -7,7 +7,7 @@ import GameListItem from '../src/GameListItem';
 
 function demoTable(elements: any) {
     return (
-        <table className="table table-dark table-striped">
+        <table className="table table-striped">
             <thead>
             <th/>
             <th>Name</th>
