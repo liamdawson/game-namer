@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../src/index.css';
 
 addDecorator(withInfo({
-  inline: true
+  inline: true,
+  source: false
 }));
 
 // automatically import all files ending in *.stories.js
