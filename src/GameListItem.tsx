@@ -4,9 +4,7 @@ import './GameListItem.css';
 interface IProps {
     /** ID for game */
     id: number;
-    /**
-     * Whether to render item as selected.
-     **/
+    /** Whether to render item as selected. */
     selected?: boolean;
     /** Name of item in listing. */
     name: string;
