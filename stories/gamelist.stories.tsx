@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {storiesOf} from '@storybook/react';
+import {action} from '@storybook/addon-actions';
 
 import GameListItem from '../src/GameListItem';
 
@@ -17,4 +18,4 @@ function demoTable(elements: any) {
 }
 
 storiesOf('Game List', module)
-    .add('Basic item', () => demoTable(<GameListItem selected={false} name="Carcassonne"/>));
+    .add('Basic item', () => demoTable(<GameListItem id={5} selected={false} name="Carcassonne" onSelectionChanged={action('selection-changed')}/>));

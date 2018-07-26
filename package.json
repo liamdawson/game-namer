@@ -27,6 +27,7 @@
     "@types/node": "^10.5.2",
     "@types/react": "^16.4.7",
     "@types/react-dom": "^16.0.6",
+    "@types/storybook__addon-actions": "^3.0.3",
     "@types/storybook__react": "^3.0.8",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
