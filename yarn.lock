@@ -102,6 +102,12 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.7.3.tgz#4240c5eee8af86843452af7497ac2808be04a77d"
 
+"@github/octicons-react@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@github/octicons-react/-/octicons-react-7.4.0.tgz#d5f12a59cde67b07ce17a4c4b5cb51a030718a30"
+  dependencies:
+    prop-types "^15.6.1"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
