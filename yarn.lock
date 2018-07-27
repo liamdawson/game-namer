@@ -102,9 +102,9 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.7.3.tgz#4240c5eee8af86843452af7497ac2808be04a77d"
 
-"@github/octicons-react@^7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@github/octicons-react/-/octicons-react-7.4.0.tgz#d5f12a59cde67b07ce17a4c4b5cb51a030718a30"
+"@githubprimer/octicons-react@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@githubprimer/octicons-react/-/octicons-react-8.0.0.tgz#11c72f75d9d0124bc801db71b786055651a2a448"
   dependencies:
     prop-types "^15.6.1"
 

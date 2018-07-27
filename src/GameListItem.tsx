@@ -1,5 +1,5 @@
+import Octicon, {Globe} from "@githubprimer/octicons-react";
 import * as React from 'react';
-import Octicon, {Globe} from '@github/octicons-react';
 
 interface IProps {
   /** ID for game */

@@ -22,7 +22,8 @@
   },
   "include": [
     "src/**/*",
-    "images.d.ts"
+    "images.d.ts",
+    "octicons.d.ts"
   ],
   "exclude": [
     "node_modules",
