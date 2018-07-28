@@ -1,20 +1,8 @@
 import React from 'react';
 
 import {storiesOf} from '@storybook/react';
-import {action} from '@storybook/addon-actions';
 
-import GameListItem from '../src/GameListItem';
-
-function demoTable(elements: any) {
-  return (
-    <table className="table table-striped">
-      <thead>
-      <th colSpan={2}>Name</th>
-      </thead>
-      <tbody>{elements}</tbody>
-    </table>
-  )
-}
+import GameList from '../src/components/GameList';
 
 const games = [{name: "7 Wonders", id: 68448},
   {name: "Alchemists", id: 161970},
@@ -77,5 +65,4 @@ const games = [{name: "7 Wonders", id: 68448},
   {name: "Unfair", id: 179172}];
 
 storiesOf('Game List', module)
-  .add('Long', () => demoTable(games.map(game => <GameListItem id={game.id} selected={false} name={game.name}
-                                                               onSelectionChanged={action('selection-changed')}/>)));
+  .add('Long', () => <GameList games={games} />);
